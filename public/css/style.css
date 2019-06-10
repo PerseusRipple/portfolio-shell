@@ -57,7 +57,7 @@ header {
 }
 
 .logo_strive-sec a {
-  color: #fff;
+  color: #efefef;
   letter-spacing: 1px;
   border: 1px solid transparent;
   position: absolute;
@@ -69,8 +69,11 @@ header {
   z-index: 1;
 }
 
-.logo_strive-sec a i {
-  font-size: 4em;
+.logo_strive-sec a,
+p {
+  font-family: 'Ribeye Marrow', cursive;
+
+  font-size: 1.8em;
 }
 
 /* /nav */
@@ -79,10 +82,10 @@ header {
   width: 70px;
   display: block;
   height: 2px;
-  background: #dba539;
+  background: #bbee2f;
   background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-  background: -webkit-linear-gradient(-45deg, #dba539 0%, #dc143c 100%);
-  background: linear-gradient(135deg, #dba539 0%, #dc143c 100%);
+  background: -webkit-linear-gradient(-45deg, #bbee2f 0%, #dc143c 100%);
+  background: linear-gradient(135deg, #bbee2f 0%, #dc143c 100%);
 }
 
 /* banner */
@@ -172,8 +175,12 @@ a.btn-slide:hover {
 /* type writer */
 
 #text {
+  font-family: 'Raleway', sans-serif;
   font-size: 2.3em;
-  color: #edad29;
+  font-weight: bold;
+  background: -webkit-radial-gradient(#bbee2f #dc143c);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   letter-spacing: 1px;
 }
 
@@ -205,6 +212,7 @@ span.banner_text_strivels {
 
 .inner-banner-str.banner-port {
   background: #e64c3e;
+  min-height: 280px;
 }
 
 .inner-banner-str.services {
