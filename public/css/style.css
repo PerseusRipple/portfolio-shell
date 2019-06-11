@@ -72,9 +72,13 @@ header {
 .logo_strive-sec a,
 p {
   font-family: 'Ribeye Marrow', cursive;
+  color: rgba(212, 209, 209, 0.59);
 
   font-weight: light;
   font-size: 1.8em;
+}
+#name {
+  color: rgba(212, 209, 209, 0.59);
 }
 
 /* /nav */
@@ -491,6 +495,17 @@ input[type='range']::-ms-track {
 }
 
 /* //contact */
+#name-contact {
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 1.2em;
+  color: #dc143c;
+}
+#hire {
+  font-family: 'Roboto';
+  font-size: 1.6em;
+  font-weight: bolder;
+  color: #34495e;
+}
 
 /* about */
 
@@ -589,6 +604,8 @@ input[type='range']::-ms-track {
 #about-content {
   font-family: 'Raleway, sans-serif';
   font-size: 1.5em;
+  /* color: #1d1c1b; */
+  color: #333;
 }
 
 .profile-info .stats .stat {
@@ -619,12 +636,15 @@ input[type='range']::-ms-track {
 
 /* skills */
 
-.logo_strive-sec a,
-p {
+.logo_strive-sec p {
+  color: #19adf2;
 }
 
 .strive-sec-inner-sec.skills-bg h4 {
   color: #333;
+}
+#name-skill {
+  color: #dc143c;
 }
 
 /* Table */
