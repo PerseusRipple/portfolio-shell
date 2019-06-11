@@ -73,6 +73,7 @@ header {
 p {
   font-family: 'Ribeye Marrow', cursive;
 
+  font-weight: light;
   font-size: 1.8em;
 }
 
@@ -141,6 +142,7 @@ p {
 .banner_text_strive-sec h2 {
   text-transform: uppercase;
   color: rgba(212, 209, 209, 0.59);
+
   letter-spacing: 3px;
   font-size: 2.5em;
 }
@@ -154,6 +156,7 @@ a.btn-slide {
   padding: 0.5em 2em;
   border: 1px solid transparent;
   font-weight: 300;
+  color: #e55d87;
 }
 
 ul.list-inline.bnr_list_strive li a:hover,
@@ -164,6 +167,7 @@ a.btn-slide:hover {
   -ms-transition: border 3s ease;
   transition: border 3s ease;
   border: 1px solid #fff;
+  color: #e55d87;
 }
 
 .bg-dark {
@@ -178,7 +182,8 @@ a.btn-slide:hover {
   font-family: 'Raleway', sans-serif;
   font-size: 2.3em;
   font-weight: bold;
-  background: -webkit-radial-gradient(#bbee2f #dc143c);
+  color: #dc143c;
+
   /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   letter-spacing: 1px;
