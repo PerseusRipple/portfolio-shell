@@ -635,6 +635,9 @@ input[type='range']::-ms-track {
   border-bottom: 5px solid #e9a422;
   border-right: 5px solid #efab2e;
 }
+#blue-text {
+  visibility: hidden;
+}
 
 /* //about */
 
@@ -642,7 +645,6 @@ input[type='range']::-ms-track {
 
 .logo_strive-sec p {
   color: #19adf2;
-  visibility: hidden;
 }
 
 .strive-sec-inner-sec.skills-bg h4 {
