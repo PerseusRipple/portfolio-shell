@@ -642,6 +642,7 @@ input[type='range']::-ms-track {
 
 .logo_strive-sec p {
   color: #19adf2;
+  visibility: hidden;
 }
 
 .strive-sec-inner-sec.skills-bg h4 {
@@ -938,6 +939,10 @@ input[type='range']::-ms-track {
   line-height: 1.5;
 }
 
+.service-content p {
+  color: #545454;
+}
+
 .service-txt h5 span {
   background: #19adf2;
   font-weight: 600;
@@ -1184,6 +1189,9 @@ input[type='range']::-ms-track {
   .layer {
     padding: 58vw 3vw 0;
   }
+  #name {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 384px) {
@@ -1220,6 +1228,9 @@ input[type='range']::-ms-track {
   .banner_text_strive-sec h2 {
     font-size: 1.85em;
   }
+  #name {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -1229,8 +1240,14 @@ input[type='range']::-ms-track {
   #text {
     font-size: 1.6em;
   }
-  .logo_strive-sec a i {
+  .logo_strive-sec a i p {
     font-size: 3.5em;
+  }
+  .logo_strive-sec p {
+    visibility: hidden;
+  }
+  #name {
+    font-size: 1.1rem;
   }
 }
 
